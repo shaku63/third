@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    background-color: blue;
+    height: 100vh;
+}
+.main-con{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.con2, .con3{
+    width: 45%;
+}
+p{
+    font-size: 18px;
+}
+h2, h4{
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+p{
+    margin-bottom: 30px;
+    color: white;
+}
+.tbox{
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 30px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
+a{
+    margin-left: 35px;
+    color: darkgoldenrod;
+}
+.main{
+    background-color: white;
+    width: 98%;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-text{
+    margin-left: 40%;
+}
+/* responsiveness */
+@media (max-width:600px){
+    .con{
+        background-color: blue;
+        height: 1000px;
+        width: 100%;
+    }
+    .main-con{
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .con2, .con3{
+        width: 40%;
+    }
+    p{
+        margin-bottom: 30px;
+        color: white;
+    }
+    .tbox{
+        padding: 5px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    a{
+        margin-left: 35px;
+        color: darkgoldenrod;
+    }
+    .main{
+        background-color: white;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px
+    }
+    .main-text{
+        margin-left: 25%;
+        padding: 5px;
+    }
+}

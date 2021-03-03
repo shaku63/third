@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-con{
+    background-image: url("../Designs/imgs/health1.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.con{
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+p{
+    color: black;
+    margin: 20px;
+}
+.items{
+    margin-left: 40%;
+}
+button{
+    padding: 8px 40px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    margin-left: 30px;
+}
+/* responsiveness */
+@media (max-width:600px){
+    .main-con{
+        background-image: url("../Designs/imgs/health1.jpeg");
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }  
+}
